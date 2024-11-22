@@ -37,7 +37,7 @@ Explore the different sections to see my skills and projects. If you have any qu
 
 ## Deployment
 
-This portfolio is deployed on GitHub Pages. You can interact with it live [here](https://your-username.github.io/your-portfolio).
+This portfolio is deployed on GitHub Pages. You can interact with it live [here](https://sheban07.github.io/my-personal-portfolio/).
 
 ## Contact
 

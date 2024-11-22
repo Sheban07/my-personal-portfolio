@@ -1,0 +1,373 @@
+/*styling all document*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+/*styling the all body*/ 
+}
+body{
+    background-color: rgb(83, 77, 77);
+}
+
+body, ul, li, a{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*styling the whole navbar*/
+.navbar{
+    display: flex;
+    padding: 20px 20px;
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.my-logo-image{
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 45px;
+}
+
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fd7e14;
+}
+
+nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color:#fd7e14;
+    margin-right: auto;
+    transition: 0.4s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.nav-link{
+    display: flex;
+    gap: 15px;
+
+}
+
+.nav-link li{
+    list-style: none;
+}
+
+.nav-link a{
+    color: white;
+    font-size: 1em;
+}
+
+.nav-link a:hover{
+    color: #fd7e14;
+}
+
+.fa-bars{
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/*Styling my introduction part*/
+.intro{
+    padding-top: 140px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+/*contains my unique style colour*/
+span{
+    color: #fd7e14;
+}
+
+/*Styling my programming languages part*/
+.languages{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/*list programming languages style*/
+.nav-item-pl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+/*Styling my interests part*/
+.interests{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+/*Styling skills part*/
+.skills{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+/*style all nav item into while colour*/
+.nav-item{
+    color: white;
+}
+
+/*/*Styling my educational background part*/*/
+.container-educational-b{
+    border-width: 10px;
+    background-color: #69503c;
+    
+}
+
+.educational-b{
+    padding-top: 30px;
+    padding-left:30px;
+    padding-right: 30px;
+    color: white;
+}
+
+/*Styling Download My CV button*/
+.btn-1{
+    background-color: #fd7e14;
+    border-radius: 5px;
+    width: 100px;
+}
+.btn-1 a{
+    cursor: pointer;
+    color: white;
+}
+
+.btn-1 a:hover{
+    color: blue;
+}
+
+/*Styling my projects part*/
+.project{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+/*Styling my pagesDiv part*/
+.row{
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+/*Styling my profile picture*/
+.img-container img{
+    max-width: 315px;
+    height: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+/*Styling my footDiv*/
+#footDiv{
+    background-color: #333;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    color: white;
+ 
+}
+
+
+#skillsDiv{
+    padding-left: 30px;
+}
+
+#pagesDiv{
+    padding-left: 30px;
+}
+
+/*Styling my contact form*/
+#applicationForm{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form{
+    background-color: lightgray;
+}
+.btn-submit{
+    background-color:#fd7e14;
+    border-radius: 3px;
+}
+
+.foot1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Quering my navbar to be responsive on mobile devices*/
+@media (max-width: 700px) {
+    nav ul{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        flex-direction: column;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        align-items: center;
+    }
+    nav ul li:last-child{
+        padding-bottom: 20px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    
+}
+
+
+
+/*This assigns the elemets to the respective areas in the CSS grid layout*/
+#navbarDiv{
+    grid-area: nd;
+}
+
+#introductionDiv{
+    grid-area: id;
+}
+
+#prifileDiv{
+    grid-area: pd;
+}
+
+#languagesDiv{
+    grid-area: ld;
+}
+
+#interestDiv{
+    grid-area: td;
+}
+#skillsDiv{
+    grid-area: sd;
+}
+#educationalDiv{
+    grid-area: ed;
+}
+
+#projectDiv{
+    grid-area: pjd;
+}
+#applicationForm{
+    grid-area: af;
+}
+
+#pagesDiv{
+    grid-area: pgd;
+}
+
+#footDiv{
+    grid-area: fd;
+}
+
+/*I divided the width of the screen and assign respective Div*/
+.grid-container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas:
+'nd nd nd nd nd nd nd nd'
+'id id id id id id pd pd'
+'ld ld ld ld ld ld ld ld'
+'td td td td sd sd sd sd'
+'ed ed ed ed ed ed ed ed'
+'pjd pjd af af af af pgd pgd'
+'fd fd fd fd fd fd fd fd'
+;
+}
+
+/*Quering the assigned respective Div to be responsive on mobile devices*/
+@media (max-width: 700px) {
+    .grid-container{
+        display: grid;
+        grid-gap: 15px;
+        grid-template-areas: 
+        'nd nd nd nd nd nd nd nd'
+        'pd pd pd pd pd pd pd pd'
+        'id id id id id id id id'
+        'ld ld ld ld ld ld ld ld'
+        'td td td td td td td td'
+        'sd sd sd sd sd sd sd sd'
+        'ed ed ed ed ed ed ed ed'
+        'pjd pjd pjd pjd pjd pjd pjd pjd'
+        'pgd pgd pgd pgd pgd pgd pgd pgd'
+        'af af af af af af af af'
+        'fd fd fd fd fd fd fd fd';
+    }
+}
+
+
+/*Stylimg my form section to attractive*/
+form{
+    max-width: 400px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 8px;
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+input[type="submit"]{
+    background-color: blue;
+}
+input[type="reset"]{
+    background-color: red;
+}

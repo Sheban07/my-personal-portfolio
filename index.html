@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--website title-->
+        <title>my-personal-portfolio</title>
+        <!--I have link my style.css-->
+        <link rel="stylesheet" href="style.css">
+        <!--I have link fontawesome to my website-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+<!--This is the main body of my page-->
+    <body>
+        <!--This is the grid container that contains all user experience -->
+        <div class="container-fluid">
+            <div class="grid-container">
+                <!--This  nav is the navbar which appears on top -->
+                <nav class="navbar" id="navbarDiv">
+                    <div class="logo">
+                        <img src="images/mylogo.jpg" alt="logo" class="my-logo-image">
+                        <span class="name">Sheban</span>
+                    </div>
+                    <ul class="nav-link" id="menuLinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-me">About Me</a></li>
+                        <li><a href="#contact-me">Contact Me</a></li>
+                    </ul>
+                    <div class="menu-icon">
+                        <i class="fa fa-bars" aria-hidden="true" id="menuIcon"></i>
+                    </div>
+                </nav>
+
+                <!--This div contains a little introduction about me.-->
+
+                <div id="introductionDiv" class="intro">
+                    <h3>Hey! my name is <span>Sheban Kaingu</span></h3><br>
+                    <h4>I'm a <span>Full Stack Web Developer</span></h4><br>
+                    <p class="text-center">I’m a passionate and driven individual with a keen interest in web development and creative writing. Currently, I'm honing my skills through a Web Development scholarship with S-Hook, where I’m learning to create modern, user-friendly websites. I also have a flair for writing, which complements my technical expertise, allowing me to craft compelling digital content. I thrive on challenges, constantly seeking opportunities to improve and deliver impactful solutions, whether in code or through the written word. This portfolio showcases my journey and projects as I continue to grow in these fields.</p>
+                </div>
+
+                <!--This is my profile picture-->
+        
+                <div id="profileDiv" class="img-container">
+                    <img src="images/profilepic.jpg" alt="profile image">
+                </div>
+
+                <!--Programming Languages that i'm profficent with-->
+
+                <div id="languagesDiv"  class="languages">
+                    <div class="flex-column-pl">
+                        <ul class="nav-pl">
+                            <li class="pl">
+                                <h3>Programming <span>Languages</span></h3>
+                            </li><br>
+                            <li class="nav-item-pl">JavaScript</li>
+                            <li class="nav-item-pl">VB.NET</li>
+                            <li class="nav-item-pl">Python</li>
+                            <li class="nav-item-pl">Django</li>
+                            <li class="nav-item-pl">Java</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--This shows my interests-->
+
+                <div id="interestDiv" class="interests">
+                    <div class="flex-interests" id="about-me">
+                        <ul class="nav-interests">
+                            <li class="nav-item">
+                                <h4 style="color: greenyellow;">My Interest</h4>
+                            </li>
+                            <li class="nav-item">Programming</li>
+                            <li class="nav-item">Technology & Innovation</li>
+                            <li class="nav-item">Reading</li>
+                            <li class="nav-item">Team Work</li>
+                            <li class="nav-item">Traveling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--shows my skills-->
+        
+                <div id="skillsDiv" class="skills">
+                    <div class="flex-column-skills">
+                        <ul class="nav-skills">
+                            <li class="nav-item">
+                                <h4 style="color: greenyellow;">My Skills</h4>
+                            </li>
+                            <li class="nav-item">Web Developer</li>
+                            <li class="nav-item">Proficient in HTML, CSS, and JavaScript.</li>
+                            <li class="nav-item">Knowledge in creating responsive and user-friendly websites</li>
+                            <li class="nav-item">Familiarity with web development frameworks and best practices</li>
+                            <li class="nav-item">Familiar with object-oriented programming concepts within the .NET framework</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Shows my educational background-->
+
+                <div class="container-educational-b" id="educationalDiv">
+                    <div class="educational-b">
+                        <div class="flex-column-educational">
+                            <h3>Educational <span>Backround</span></h3><br>
+                        <p class="text-center">I hold a Diploma in Computer Science from Baringo National Polytechnic. My studies provide me with a strong foundation in programming, software development, database management, and networking. This education has equipped me with both theoretical knowledge and practical experience, preparing me for a career in the dynamic field of technology.</p><br>
+                        <br>
+                        <div class="download-btn">
+                            <button class="btn-1"><a class="link" href="public/my_cv.pdf" download="my_cv.pdf">Download My CV</a></button>
+                        </div>
+                        <br>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--Some projects that I did-->
+
+                <div id="projectDiv" class="projectDiv">
+                    <div class="project" id="project">
+                        <h4 style="color: greenyellow;">Projects</h4><br>
+                        <h5 style="color: white;">Exam Booking: Allowing students to book their exams online</h5><br>
+                        <p><a href="https://github.com/Sheban07/The-Project.git">Github Repository</a></p>
+                    </div>
+                </div>
+
+                <!--This is the form where people will be able to contact where I have just connected with getform-->
+
+                <div id="applicationForm">
+                    <form class="contact-form" id="contact-me" action="https://getform.io/f/bollzdxa" method="POST">
+                        <h4 style="display: flex; justify-content: center;"><span>Contact Form</span></h4>
+                        <div class="mb-3">
+                            <label class="form-label">Full Name</label>
+                            <input name="name" type="text" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
+                            <input name="number" type="text" class="form-control" id="exampleInputPhoneNumber" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <input type="text" name="message" placeholder="Enter your message" required>
+                        </div>
+                        <button style="cursor: pointer;" type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!--you can follow me through this social media platform.-->
+
+                <div class="row" id="pagesDiv">         
+                    <div class="col-md-4" >
+                        <h4 style="color: greenyellow;">Follow Me</h4><br>
+                        <p> <a href="https://www.instagram.com/shebankaingu?igsh=MWYwOHRzYWw3Z3ZucQ==">Instagram</a></p>
+                        <p><a HREF="https://x.com/ShebanKaingu?t=ejOOmcUTNfnFb5JLJ7W3TQ&s=09">X</A></p>
+                        <p> <a href="https://www.facebook.com/yahya.omii.5">Facebook</a></p>
+                        <p> <a href="https://wa.me/254711895959?text=Hi">WhatsApp</a></p>
+                        <br>   
+                    </div>
+                </div>
+
+                <!--footer section-->
+                <div id="footDiv" style="align-items: center" class="footDiv">
+                    <div class="foot1">
+                        <div class="container">
+                            <p>Email: shebankaingu@gmail.com | Phone: 0711895959</p>
+                        </div>
+                    </div>
+                    <div class="foot2">
+                        <div class="powered">
+                            <p style="color: #fd7e14;">@ Powered by Group 19</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+
+        <!--I have linked my script.js -->
+        <script src="script.js"></script>    
+    </body>
+
+</html>

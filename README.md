@@ -41,7 +41,7 @@ This portfolio is deployed on GitHub Pages. You can interact with it live [here]
 
 ## Contact
 
-If you wish to reach out, feel free to contact me through the form on the website or via email at [your-email@example.com](mailto:shebankaingu@gmail.com).
+If you wish to reach out, feel free to contact me through the form on the website or via email at [shebankaingu@gmail.com](mailto:shebankaingu@gmail.com).
 
 ---
 

@@ -94,6 +94,7 @@ nav ul li a:hover::after{
     color: white;
 }
 
+
 /*contains my unique style colour*/
 span{
     color: #fd7e14;
@@ -142,16 +143,17 @@ span{
 /*/*Styling my educational background part*/*/
 .container-educational-b{
     border-width: 10px;
-    background-color: #c97633;
+    background-color: #69503c;
     
 }
 
 .educational-b{
-    background-color: #765085;
+    background-color: #69503c;
     padding-top: 30px;
     padding-left:30px;
     padding-right: 30px;
     color: white;
+    border-radius: 10px;
 }
 
 /*Styling Download My CV button*/

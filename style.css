@@ -236,7 +236,7 @@ span{
 }
 
 /*Quering my navbar to be responsive on mobile devices*/
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     nav ul{
         position: absolute;
         top: 60px;
@@ -317,7 +317,7 @@ span{
 }
 
 /*Quering the assigned respective Div to be responsive on mobile devices*/
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .grid-container{
         display: grid;
         grid-gap: 15px;

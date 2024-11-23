@@ -37,11 +37,11 @@ Explore the different sections to see my skills and projects. If you have any qu
 
 ## Deployment
 
-This portfolio is deployed on GitHub Pages. You can interact with it live [here](https://your-username.github.io/your-portfolio).
+This portfolio is deployed on GitHub Pages. You can interact with it live [here](https://sheban07.github.io/my-personal-portfolio/).
 
 ## Contact
 
-If you wish to reach out, feel free to contact me through the form on the website or via email at [your-email@example.com](mailto:shebankaingu@gmail.com).
+If you wish to reach out, feel free to contact me through the form on the website or via email at [shebankaingu@gmail.com](mailto:shebankaingu@gmail.com).
 
 ---
 

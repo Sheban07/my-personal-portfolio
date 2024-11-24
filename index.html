@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--website title-->
         <title>my-personal-portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--I have link my style.css-->
         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
         <!--I have link fontawesome to my website-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
@@ -71,11 +71,11 @@
                             <li class="nav-item">
                                 <h4 style="color: greenyellow;">My Interest</h4>
                             </li>
-                            <li class="nav-item">Programming</li>
-                            <li class="nav-item">Technology & Innovation</li>
-                            <li class="nav-item">Reading</li>
-                            <li class="nav-item">Team Work</li>
-                            <li class="nav-item">Traveling</li>
+                            <li class="nav-item">Programming: <p style="color: black; font-style: italic;">Enjoying solving complex problems.</p></li>
+                            <li class="nav-item">Technology & Innovation: <p style="color: black; font-style: italic;">I'm staying updated with the latest trends in tech.</p></li>
+                            <li class="nav-item">Reading: <p style="color: black; font-style: italic;">I'm learnig new technologies.</p></li>
+                            <li class="nav-item">Team Work: <p style="color: black; font-style: italic;">I'm in collaborative environments, working with others to achieve shared goals.</p></li>
+                            <li class="nav-item">Traveling: <p style="color: black; font-style: italic;">Exploring new places, reflects my adaptability and openness to new ideas.</p></li>
                         </ul>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                         <p class="text-center">I hold a Diploma in Computer Science from Baringo National Polytechnic. My studies provide me with a strong foundation in programming, software development, database management, and networking. This education has equipped me with both theoretical knowledge and practical experience, preparing me for a career in the dynamic field of technology.</p><br>
                         <br>
                         <div class="download-btn">
-                            <button class="btn-1"><a class="link" href="public/my_cv.pdf" download="my_cv.pdf">Download My CV</a></button>
+                            <button class="btn-1"><a class="link" href="public/Sheban_CV.pdf" download="Sheban_CV.pdf">Download My CV</a></button>
                         </div>
                         <br>
                         </div>
@@ -127,24 +127,24 @@
                 <!--This is the form where people will be able to contact where I have just connected with getform-->
 
                 <div id="applicationForm">
-                    <form class="contact-form" id="contact-me" action="https://getform.io/f/bollzdxa" method="POST">
+                    <form class="contact-form" id="contact-me">
                         <h4 style="display: flex; justify-content: center;"><span>Contact Form</span></h4>
                         <div class="mb-3">
                             <label class="form-label">Full Name</label>
-                            <input name="name" type="text" class="form-control" placeholder="Enter your name" required>
+                            <input id="fullName" name="name" type="text" class="input-field error" class="form-control" placeholder="Enter your name" required>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" required>
+                            <input id="email" type="email" name="email-address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" required>
                             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
-                            <input name="number" type="text" class="form-control" id="exampleInputPhoneNumber" placeholder="Enter your phone number" required>
+                            <input name="phoneNumber" type="text" class="form-control" id="phone" placeholder="Enter your phone number" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Message</label>
-                            <input type="text" name="message" placeholder="Enter your message" required>
+                            <input type="text" id="messages" name="message" placeholder="Enter your message" class="form-control" required>
                         </div>
                         <button style="cursor: pointer;" type="submit" class="btn-submit">Send Message</button>
                     </form>
@@ -155,10 +155,10 @@
                 <div class="row" id="pagesDiv">         
                     <div class="col-md-4" >
                         <h4 style="color: greenyellow;">Follow Me</h4><br>
-                        <p> <a href="https://www.instagram.com/shebankaingu?igsh=MWYwOHRzYWw3Z3ZucQ==">Instagram</a></p>
-                        <p><a HREF="https://x.com/ShebanKaingu?t=ejOOmcUTNfnFb5JLJ7W3TQ&s=09">X</A></p>
-                        <p> <a href="https://www.facebook.com/yahya.omii.5">Facebook</a></p>
-                        <p> <a href="https://wa.me/254711895959?text=Hi">WhatsApp</a></p>
+                        <p> <a href="https://www.instagram.com/shebankaingu?igsh=MWYwOHRzYWw3Z3ZucQ=="><img src="images/instagram.png"></a></p>
+                        <p><a HREF="https://x.com/ShebanKaingu?t=ejOOmcUTNfnFb5JLJ7W3TQ&s=09"><img src="images/twitter.png"></A></p>
+                        <p> <a href="https://www.facebook.com/yahya.omii.5"><img src="images/facebook.png"></a></p>
+                        <p> <a href="https://wa.me/254711895959?text=Hi"><img src="images/whatsapp.png"></a></p>
                         <br>   
                     </div>
                 </div>
@@ -181,7 +181,9 @@
         </div>
 
         <!--I have linked my script.js -->
-        <script src="script.js"></script>    
+        <script src="script.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
     </body>
 
 </html>

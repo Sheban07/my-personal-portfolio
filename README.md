@@ -4,13 +4,13 @@ Welcome to my portfolio! This website showcases my skills in web development and
 
 ## Overview
 
-This portfolio features a clean and responsive design, ensuring a great user experience on both desktop and mobile devices. The contact form is powered by GetForm, allowing visitors to easily get in touch with me.
+This portfolio features a clean and responsive design, ensuring a great user experience on both desktop and mobile devices. The contact form is powered by smtp, allowing visitors to easily get in touch with me.
 
 ### Features
 
 - **Responsive Design:** Ensures optimal viewing on all devices.
 - **Interactive Elements:** JavaScript adds dynamic functionality.
-- **Contact Form:** Powered by GetForm to receive messages directly.
+- **Contact Form:** Powered by smtp to receive messages directly.
 - **GitHub Pages:** Deployed for easy access and interaction.
 
 ## Installation

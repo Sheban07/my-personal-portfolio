@@ -374,3 +374,18 @@ input[type="submit"]{
 input[type="reset"]{
     background-color: red;
 }
+
+.btn-submit{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color:green;
+    font-size: medium;
+
+}
+
+.btn-submit:hover{
+    background-color:#fd7e14;
+    transition: 0.5s;
+}
+

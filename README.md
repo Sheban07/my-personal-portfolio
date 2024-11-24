@@ -48,7 +48,7 @@ If you wish to reach out, feel free to contact me through the form on the websit
 This project was a collaborative effort involving multiple contributors who brought their expertise to ensure its success. Our teamwork and shared knowledge were pivotal in achieving the portfolio project goals. You can explore the work of our amazing team members in their respective repositories.
 
 **Our Collaborator Repository:**
-- [S-Hook-Group-19](https://github.com/Sheban07/collaborators-group-19.git)
+- [Collaborators-S-Hook-Group-19](https://github.com/Sheban07/collaborators-group-19.git)
 
 **Other Collaborators:**
 - [Nyarangi Joyllette](https://j-nyarangi.github.io/)

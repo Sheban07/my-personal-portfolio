@@ -43,6 +43,20 @@ This portfolio is deployed on GitHub Pages. You can interact with it live [here]
 
 If you wish to reach out, feel free to contact me through the form on the website or via email at [shebankaingu@gmail.com](mailto:shebankaingu@gmail.com).
 
+### Collaboration and Contributors
+
+This project was a collaborative effort involving multiple contributors who brought their expertise to ensure its success. Our teamwork and shared knowledge were pivotal in achieving the portfolio project goals. You can explore the work of our amazing team members in their respective repositories.
+
+**Our Collaborator Repository:**
+- [S-Hook-Group-19](https://github.com/Sheban07/collaborators-group-19.git)
+
+**Other Collaborators:**
+- [Nyarangi Joyllette](https://j-nyarangi.github.io/)
+- [Elizabeth Julius](https://muthonijulie.github.io/PLP_portfolio/)
+
+Check out their repositories to see more of their fantastic work and to connect with the team!
+
+
 ---
 
 Thank you for visiting my portfolio!

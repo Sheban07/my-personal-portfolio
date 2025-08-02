@@ -9,8 +9,8 @@ This portfolio features a clean and responsive design, ensuring a great user exp
 ### Features
 
 - **Responsive Design:** Ensures optimal viewing on all devices.
-- **Interactive Elements:** JavaScript adds dynamic functionality.
-- **Contact Form:** Powered by smtp to receive messages directly.
+- **Interactive Elements:** dynamic functionality.
+- **Contact Form:** To receive messages directly.
 - **GitHub Pages:** Deployed for easy access and interaction.
 
 ## Installation

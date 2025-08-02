@@ -1,189 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--website title-->
-        <title>my-personal-portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--I have link my style.css-->
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <!--I have link fontawesome to my website-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
+<head>
+    <title>Sheban Kaingu | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky">
+        <div class="logo">
+            <img src="images/mylogo.jpg" alt="logo" class="my-logo-image">
+            <span class="name">Sheban</span>
+        </div>
+        <ul class="nav-link">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </nav>
 
-<!--This is the main body of my page-->
-    <body>
-        <!--This is the grid container that contains all user experience -->
-        <div class="container-fluid">
-            <div class="grid-container">
-                <!--This  nav is the navbar which appears on top -->
-                <nav class="navbar" id="navbarDiv">
-                    <div class="logo">
-                        <img src="images/mylogo.jpg" alt="logo" class="my-logo-image">
-                        <span class="name">Sheban</span>
-                    </div>
-                    <ul class="nav-link" id="menuLinks">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about-me">About Me</a></li>
-                        <li><a href="#contact-me">Contact Me</a></li>
-                    </ul>
-                    <div class="menu-icon">
-                        <i class="fa fa-bars" aria-hidden="true" id="menuIcon"></i>
-                    </div>
-                </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/profilepic.jpg" alt="profile image" class="hero-img">
+            <h1>Sheban Kaingu</h1>
+            <h2>Full Stack Web Developer</h2>
+            <p>Passionate about building modern, user-friendly websites and creative digital content.</p>
+            <a href="#contact-me" class="btn-primary">Contact Me</a>
+            <a href="public/CV.pdf" class="btn-secondary" download>Download CV</a>
+        </div>
+    </section>
 
-                <!--This div contains a little introduction about me.-->
-
-                <div id="introductionDiv" class="intro">
-                    <h3>Hey! my name is <span>Sheban Kaingu</span></h3><br>
-                    <h4>I'm a <span>Full Stack Web Developer</span></h4><br>
-                    <p class="text-center">I’m a passionate and driven individual with a keen interest in web development and creative writing. Currently, I'm honing my skills through a Web Development scholarship with S-Hook, where I’m learning to create modern, user-friendly websites. I also have a flair for writing, which complements my technical expertise, allowing me to craft compelling digital content. I thrive on challenges, constantly seeking opportunities to improve and deliver impactful solutions, whether in code or through the written word. This portfolio showcases my journey and projects as I continue to grow in these fields.</p>
-                </div>
-
-                <!--This is my profile picture-->
-        
-                <div id="profileDiv" class="img-container">
-                    <img src="images/profilepic.jpg" alt="profile image">
-                </div>
-
-                <!--Programming Languages that i'm profficent with-->
-
-                <div id="languagesDiv"  class="languages">
-                    <div class="flex-column-pl">
-                        <ul class="nav-pl">
-                            <li class="pl">
-                                <h3>Programming <span>Languages</span></h3>
-                            </li><br>
-                            <li class="nav-item-pl">JavaScript</li>
-                            <li class="nav-item-pl">VB.NET</li>
-                            <li class="nav-item-pl">Python</li>
-                            <li class="nav-item-pl">Django</li>
-                            <li class="nav-item-pl">Java</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!--This shows my interests-->
-
-                <div id="interestDiv" class="interests">
-                    <div class="flex-interests" id="about-me">
-                        <ul class="nav-interests">
-                            <li class="nav-item">
-                                <h4 style="color: greenyellow;">My Interest</h4>
-                            </li>
-                            <li class="nav-item">Programming: <p style="color: black; font-style: italic;">Enjoying solving complex problems.</p></li>
-                            <li class="nav-item">Technology & Innovation: <p style="color: black; font-style: italic;">I'm staying updated with the latest trends in tech.</p></li>
-                            <li class="nav-item">Reading: <p style="color: black; font-style: italic;">I'm learnig new technologies.</p></li>
-                            <li class="nav-item">Team Work: <p style="color: black; font-style: italic;">I'm in collaborative environments, working with others to achieve shared goals.</p></li>
-                            <li class="nav-item">Traveling: <p style="color: black; font-style: italic;">Exploring new places, reflects my adaptability and openness to new ideas.</p></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!--shows my skills-->
-        
-                <div id="skillsDiv" class="skills">
-                    <div class="flex-column-skills">
-                        <ul class="nav-skills">
-                            <li class="nav-item">
-                                <h4 style="color: greenyellow;">My Skills</h4>
-                            </li>
-                            <li class="nav-item">Web Developer</li>
-                            <li class="nav-item">Proficient in HTML, CSS, and JavaScript.</li>
-                            <li class="nav-item">Knowledge in creating responsive and user-friendly websites</li>
-                            <li class="nav-item">Familiarity with web development frameworks and best practices</li>
-                            <li class="nav-item">Familiar with object-oriented programming concepts within the .NET framework</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!--Shows my educational background-->
-
-                <div class="container-educational-b" id="educationalDiv">
-                    <div class="educational-b">
-                        <div class="flex-column-educational">
-                            <h3>Educational <span>Backround</span></h3><br>
-                        <p class="text-center">I hold a Diploma in Computer Science from Baringo National Polytechnic. My studies provide me with a strong foundation in programming, software development, database management, and networking. This education has equipped me with both theoretical knowledge and practical experience, preparing me for a career in the dynamic field of technology.</p><br>
-                        <br>
-                        <div class="download-btn">
-                            <button class="btn-1"><a class="link" href="public/Sheban_CV.pdf" download="Sheban_CV.pdf">Download My CV</a></button>
-                        </div>
-                        <br>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <!--Some projects that I did-->
-
-                <div id="projectDiv" class="projectDiv">
-                    <div class="project" id="project">
-                        <h4 style="color: greenyellow;">Projects</h4><br>
-                        <h5 style="color: white;">Exam Booking: Allowing students to book their exams online</h5><br>
-                        <p><a href="https://github.com/Sheban07/The-Project.git">Github Repository</a></p>
-                    </div>
-                </div>
-
-                <!--This is the form where people will be able to contact where I have just connected with getform-->
-
-                <div id="applicationForm">
-                    <form class="contact-form" id="contact-me">
-                        <h4 style="display: flex; justify-content: center;"><span>Contact Form</span></h4>
-                        <div class="mb-3">
-                            <label class="form-label">Full Name</label>
-                            <input id="fullName" name="name" type="text" class="input-field error" class="form-control" placeholder="Enter your name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input id="email" type="email" name="email-address" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address" required>
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
-                            <input name="phoneNumber" type="text" class="form-control" id="phone" placeholder="Enter your phone number" required>
-                        </div>
-                        <div class="mb-3">
-                            <label class="form-label">Message</label>
-                            <input type="text" id="messages" name="message" placeholder="Enter your message" class="form-control" required>
-                        </div>
-                        <button style="cursor: pointer;" type="submit" class="btn-submit">Send Message</button>
-                    </form>
-                </div>
-
-                <!--you can follow me through this social media platform.-->
-
-                <div class="row" id="pagesDiv">         
-                    <div class="col-md-4" >
-                        <h4 style="color: greenyellow;">Follow Me</h4><br>
-                        <p> <a href="https://www.instagram.com/shebankaingu?igsh=MWYwOHRzYWw3Z3ZucQ=="><img src="images/instagram.png"></a></p>
-                        <p><a HREF="https://x.com/ShebanKaingu?t=ejOOmcUTNfnFb5JLJ7W3TQ&s=09"><img src="images/twitter.png"></A></p>
-                        <p> <a href="https://www.facebook.com/yahya.omii.5"><img src="images/facebook.png"></a></p>
-                        <p> <a href="https://wa.me/254711895959?text=Hi"><img src="images/whatsapp.png"></a></p>
-                        <br>   
-                    </div>
-                </div>
-
-                <!--footer section-->
-                <div id="footDiv" style="align-items: center" class="footDiv">
-                    <div class="foot1">
-                        <div class="container">
-                            <p>Email: shebankaingu@gmail.com | Phone: 0711895959</p>
-                        </div>
-                    </div>
-                    <div class="foot2">
-                        <div class="powered">
-                            <p style="color: #fd7e14;">@ Powered by Group 19</p>
-                        </div>
-                    </div>
-                </div>
-        
+    <!-- About Section -->
+    <section id="about-me" class="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a passionate and driven individual with a keen interest in web development and creative writing. Currently, I'm honing my skills through a Web Development scholarship with S-Hook. I thrive on challenges, constantly seeking opportunities to improve and deliver impactful solutions, whether in code or through the written word.
+        </p>
+        <div class="about-cards">
+            <div class="card">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python, Django, VB.NET, Java</li>
+                    <li>Responsive Web Design</li>
+                    <li>OOP & .NET Framework</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Interests</h3>
+                <ul>
+                    <li>Programming & Problem Solving</li>
+                    <li>Technology & Innovation</li>
+                    <li>Reading & Learning</li>
+                    <li>Teamwork & Collaboration</li>
+                    <li>Traveling</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Education</h3>
+                <p>Diploma in Computer Science<br>Baringo National Polytechnic</p>
             </div>
         </div>
+    </section>
 
-        <!--I have linked my script.js -->
-        <script src="script.js"></script>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>    
-    </body>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <img src="images/examlogo.png" alt="Exam Booking">
+                <h3>Exam Booking</h3>
+                <p>Allowing students to book their exams online.</p>
+                <a href="https://github.com/Sheban07/The-Project.git" target="_blank">View on GitHub</a>
+            </div>
+        
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact-me" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <i class="fa fa-user"></i>
+                <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-envelope"></i>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-phone"></i>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <i class="fa fa-comment"></i>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Links & Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/shebankaingu" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/ShebanKaingu" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/yahya.omii.5" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/254711895959?text=Hi" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="footer-info">
+            <p>Email: kaingusheban@gmail.com | Phone: 0711895959</p>
+            <p style="color: #fd7e14;">@ Powered by Sheban</p>
+        </div>
+    </footer>
+
+    
+</body>
 </html>
